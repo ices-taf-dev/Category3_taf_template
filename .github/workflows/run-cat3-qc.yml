@@ -1,0 +1,8 @@
+name: Quality Check using qcTAF
+
+on:
+  workflow_dispatch:
+
+jobs:
+  qc:
+    uses: ices-tools-prod/taf-qc-validator/.github/workflows/taf-cat3-qc.yml@main
