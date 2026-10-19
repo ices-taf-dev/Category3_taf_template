@@ -5,4 +5,4 @@ on:
 
 jobs:
   qc:
-    uses: ices-tools-prod/taf-qc-validator/.github/workflows/taf-category3-qc.yml@main
+    uses: ices-tools-prod/taf-qc-validator/.github/workflows/taf-cat3-qc.yml@main
