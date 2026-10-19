@@ -1,0 +1,8 @@
+name: Quality Check using qcTAF
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    uses: ices-tools-prod/taf-qc-validator/.github/workflows/test-reusable.yml@main
